@@ -10,7 +10,11 @@ recurrence within 10 years of radical prostatectomy for his cancer.
 #### Clone the repo
 You must clone the code base to work on it.
 
-      git clone
+      git clone https://github.com/vsoch/prostate
+
+or if you use ssh for github
+
+      git clone git@github.com:vsoch/prostate.git
    
 Note that the app is named on the server according to the folder name. The folder is called "prostate," so this would be deployed as `http://predict.shinyapps.io/prostate`. To fix this, and deploy as "raps," change the folder name:
 
